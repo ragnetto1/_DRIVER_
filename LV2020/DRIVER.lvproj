@@ -287,6 +287,66 @@
 			</Item>
 			<Item Name="SaveData.ctl" Type="VI" URL="../../../RPA_BACKDRIVE/GUI/SUBVI/TYPEDEF/SaveData.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="_DRIVER_NI9205" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{826993FF-4747-4FD6-9026-50D8372D604C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{069E4612-E3F5-4269-B188-721594961492}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7FA30169-AE14-4914-992B-E7784B02916B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">_DRIVER_NI9205</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../BUILD/_DRIVER_NI9205</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8BA74BEF-71BD-466E-8D39-32F637105627}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">_DRIVER_NI9205.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../BUILD/_DRIVER_NI9205/_DRIVER_NI9205.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../BUILD/_DRIVER_NI9205/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">_DRIVER_NI9205</Property>
+				<Property Name="Destination[2].path" Type="Path">../BUILD/_DRIVER_NI9205/_DRIVER_NI9205.llb</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C78E49DD-A763-4D8C-B830-197C8043AE7C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV2020/_SHARED_/_DRIVER_SHARED_Vuoto.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV2020/NI9205</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LV2020/NI9205/NI9205_driver.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LV2020/NI9205/NI9205_simpleUI.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[4].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LV2020/NI9205/NI9205_UI_LinearLoadCell.vi</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[5].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">_DRIVER_NI9205</Property>
+				<Property Name="TgtF_internalName" Type="Str">_DRIVER_NI9205</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_productName" Type="Str">_DRIVER_NI9205</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D057A1A6-F38A-48F2-9767-A4E08E466999}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">_DRIVER_NI9205.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
